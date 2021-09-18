@@ -1,0 +1,258 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 1 1 61491380
+P 1000 1950
+F 0 "U?" H 1050 1900 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 700 1800 60  0000 L CNN
+F 2 "" H 1000 1950 60  0001 C CNN
+F 3 "" H 1000 1950 60  0001 C CNN
+	1    1000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 2 1 61496C17
+P 1500 1950
+F 0 "U?" H 1531 3227 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 1531 3121 60  0000 C CNN
+F 2 "" H 1500 1950 60  0001 C CNN
+F 3 "" H 1500 1950 60  0001 C CNN
+	2    1500 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 3 1 6149BE15
+P 2450 1950
+F 0 "U?" H 2500 1900 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2150 1800 60  0000 L CNN
+F 2 "" H 2450 1950 60  0001 C CNN
+F 3 "" H 2450 1950 60  0001 C CNN
+	3    2450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 4 1 6149DB47
+P 2950 1950
+F 0 "U?" H 2981 3227 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 2981 3121 60  0000 C CNN
+F 2 "" H 2950 1950 60  0001 C CNN
+F 3 "" H 2950 1950 60  0001 C CNN
+	4    2950 1950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 5 1 6149FAD6
+P 1000 3550
+F 0 "U?" H 1050 3500 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 700 3400 60  0000 L CNN
+F 2 "" H 1000 3550 60  0001 C CNN
+F 3 "" H 1000 3550 60  0001 C CNN
+	5    1000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 6 1 614A256A
+P 1500 3550
+F 0 "U?" H 1531 4827 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 1531 4721 60  0000 C CNN
+F 2 "" H 1500 3550 60  0001 C CNN
+F 3 "" H 1500 3550 60  0001 C CNN
+	6    1500 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 7 1 614A474A
+P 2450 3550
+F 0 "U?" H 2500 3500 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 2150 3400 60  0000 L CNN
+F 2 "" H 2450 3550 60  0001 C CNN
+F 3 "" H 2450 3550 60  0001 C CNN
+	7    2450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Shields:TM4C129E_Launchpad U?
+U 8 1 614A7038
+P 2950 3550
+F 0 "U?" H 2981 4827 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 2981 4721 60  0000 C CNN
+F 2 "" H 2950 3550 60  0001 C CNN
+F 3 "" H 2950 3550 60  0001 C CNN
+	8    2950 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61518C98
+P 1850 1150
+F 0 "#PWR?" H 1850 900 50  0001 C CNN
+F 1 "GND" H 1855 977 50  0000 C CNN
+F 2 "" H 1850 1150 50  0001 C CNN
+F 3 "" H 1850 1150 50  0001 C CNN
+	1    1850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  1000 750  950 
+Wire Wire Line
+	1850 1100 1850 1150
+Text HLabel 2200 3200 0    50   Input ~ 0
+A1_Signal
+Wire Wire Line
+	2250 3200 2200 3200
+NoConn ~ 800  1100
+NoConn ~ 800  1200
+NoConn ~ 800  1300
+NoConn ~ 800  1400
+NoConn ~ 800  1500
+NoConn ~ 800  1600
+NoConn ~ 800  1700
+NoConn ~ 800  1800
+NoConn ~ 800  1900
+NoConn ~ 1700 1200
+NoConn ~ 1700 1300
+NoConn ~ 1700 1400
+NoConn ~ 1700 1500
+NoConn ~ 1700 1600
+NoConn ~ 1700 1700
+NoConn ~ 1700 1800
+NoConn ~ 1700 1900
+NoConn ~ 800  2600
+NoConn ~ 800  2700
+NoConn ~ 800  2800
+NoConn ~ 800  2900
+NoConn ~ 800  3000
+NoConn ~ 800  3100
+NoConn ~ 800  3200
+NoConn ~ 800  3300
+NoConn ~ 800  3400
+NoConn ~ 800  3500
+NoConn ~ 2250 2600
+NoConn ~ 2250 2700
+NoConn ~ 2250 2800
+NoConn ~ 2250 2900
+NoConn ~ 2250 3000
+NoConn ~ 2250 3100
+NoConn ~ 2250 3200
+NoConn ~ 2250 3300
+NoConn ~ 2250 3400
+NoConn ~ 2250 1100
+NoConn ~ 2250 1200
+NoConn ~ 2250 1300
+NoConn ~ 2250 1400
+NoConn ~ 2250 1500
+NoConn ~ 2250 1600
+NoConn ~ 2250 1700
+NoConn ~ 2250 1800
+NoConn ~ 2250 1900
+NoConn ~ 3150 1200
+NoConn ~ 3150 1300
+NoConn ~ 3150 1400
+NoConn ~ 3150 1500
+NoConn ~ 3150 1600
+NoConn ~ 3150 1700
+NoConn ~ 3150 1800
+NoConn ~ 3150 1900
+NoConn ~ 3150 2800
+NoConn ~ 3150 2900
+NoConn ~ 3150 3000
+NoConn ~ 3150 3100
+NoConn ~ 3150 3200
+NoConn ~ 3150 3300
+NoConn ~ 3150 3400
+NoConn ~ 2250 1000
+NoConn ~ 1700 2800
+NoConn ~ 1700 2900
+NoConn ~ 1700 3000
+NoConn ~ 1700 3100
+NoConn ~ 1700 3200
+NoConn ~ 1700 3300
+NoConn ~ 1700 3400
+NoConn ~ 1700 3500
+NoConn ~ 1700 2600
+NoConn ~ 3150 2700
+NoConn ~ 3150 1100
+Wire Wire Line
+	750  1000 800  1000
+NoConn ~ 1700 1000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6152E7CE
+P 750 950
+F 0 "#PWR?" H 750 800 50  0001 C CNN
+F 1 "+3V3" H 765 1123 50  0000 C CNN
+F 2 "" H 750 950 50  0001 C CNN
+F 3 "" H 750 950 50  0001 C CNN
+	1    750  950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1100 1850 1100
+$Comp
+L power:GND #PWR?
+U 1 1 615309E0
+P 1850 2750
+F 0 "#PWR?" H 1850 2500 50  0001 C CNN
+F 1 "GND" H 1855 2577 50  0000 C CNN
+F 2 "" H 1850 2750 50  0001 C CNN
+F 3 "" H 1850 2750 50  0001 C CNN
+	1    1850 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2700 1850 2750
+Wire Wire Line
+	1700 2700 1850 2700
+$Comp
+L power:GND #PWR?
+U 1 1 61530D7B
+P 3300 2650
+F 0 "#PWR?" H 3300 2400 50  0001 C CNN
+F 1 "GND" H 3305 2477 50  0000 C CNN
+F 2 "" H 3300 2650 50  0001 C CNN
+F 3 "" H 3300 2650 50  0001 C CNN
+	1    3300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 2600 3300 2650
+Wire Wire Line
+	3150 2600 3300 2600
+$Comp
+L power:GND #PWR?
+U 1 1 615311A8
+P 3300 1050
+F 0 "#PWR?" H 3300 800 50  0001 C CNN
+F 1 "GND" H 3305 877 50  0000 C CNN
+F 2 "" H 3300 1050 50  0001 C CNN
+F 3 "" H 3300 1050 50  0001 C CNN
+	1    3300 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 1000 3300 1050
+Wire Wire Line
+	3150 1000 3300 1000
+NoConn ~ 2250 3500
+NoConn ~ 3150 3500
+$EndSCHEMATC
